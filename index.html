@@ -7,13 +7,13 @@
 	<body style="margin: 0px; overflow: hidden">
 		<a-scene embedded arjs>
 			<a-assets>
-				<a-asset-item id="bike" src="bike/" response-type="arraybuffer"></a-asset-item>
+				<!-- <a-asset-item id="bike" src="bike/" response-type="arraybuffer"></a-asset-item> -->
 				<img id="pic" src="pic.jpeg" />
 			</a-assets>
 
 			<a-marker preset="hiro">
 				<a-plane src="#pic"></a-plane>
-				<a-entity gltf-model="#bike" scale="0.1 0.1 0.1"></a-entity>
+				<!-- <a-entity gltf-model="#bike" scale="0.1 0.1 0.1"></a-entity> -->
 				<!-- <a-entity gltf-model="url(bike/scene.gltf)"></a-entity> -->
 			</a-marker>
 			<a-entity camera></a-entity>
